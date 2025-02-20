@@ -1,0 +1,230 @@
+{
+  "id": "b558186",
+  "versionId": "g1b5dc9c4",
+  "eventDate": "30-12-2024",
+  "lastUpdated": "2025-01-01T05:56:45.187+0000",
+  "artist": {
+    "mbid": "640db492-34c4-47df-be14-96e2cd4b9fe4",
+    "name": "Billy Strings",
+    "sortName": "Strings, Billy",
+    "disambiguation": "US bluegrass",
+    "url": "https://www.setlist.fm/setlists/billy-strings-73c3fe21.html"
+  },
+  "venue": {
+    "id": "3d62ddb",
+    "name": "Kiefer UNO Lakefront Arena",
+    "city": {
+      "id": "4335045",
+      "name": "New Orleans",
+      "state": "Louisiana",
+      "stateCode": "LA",
+      "coords": {
+        "lat": 29.955,
+        "long": -90.075
+      },
+      "country": {
+        "code": "US",
+        "name": "United States"
+      }
+    },
+    "url": "https://www.setlist.fm/venue/kiefer-uno-lakefront-arena-new-orleans-la-usa-3d62ddb.html"
+  },
+  "tour": {
+    "name": "New Year's Run 2024"
+  },
+  "sets": {
+    "set": [
+      {
+        "name": "Set 1:",
+        "song": [
+          {
+            "name": "Malfunction Junction",
+            "info": ">"
+          },
+          {
+            "name": "Know It All"
+          },
+          {
+            "name": "Fire Line",
+            "info": ">"
+          },
+          {
+            "name": "End of the Rainbow",
+            "cover": {
+              "mbid": "dfa3b60c-8f43-4564-8c54-bad636b57928",
+              "name": "Frank Wakefield",
+              "sortName": "Wakefield, Frank",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/frank-wakefield-7bd6aed4.html"
+            },
+            "info": ">"
+          },
+          {
+            "name": "Dealing Despair"
+          },
+          {
+            "name": "Seney Stretch"
+          },
+          {
+            "name": "Don't Be Calling Me (At 4am)"
+          },
+          {
+            "name": "Heartbeat of America"
+          },
+          {
+            "name": "Roving Gambler",
+            "cover": {
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+              "name": "[traditional]",
+              "sortName": "[traditional]",
+              "disambiguation": "special purpose artist",
+              "url": "https://www.setlist.fm/setlists/traditional-5bd2f7e4.html"
+            }
+          },
+          {
+            "name": "With a Vamp in the Middle",
+            "cover": {
+              "mbid": "3178cc4c-cd9f-4842-96fb-28bf9cfec591",
+              "name": "John Hartford",
+              "sortName": "Hartford, John",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/john-hartford-13d6b125.html"
+            },
+            "info": ">"
+          },
+          {
+            "name": "All Fall Down",
+            "cover": {
+              "mbid": "3178cc4c-cd9f-4842-96fb-28bf9cfec591",
+              "name": "John Hartford",
+              "sortName": "Hartford, John",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/john-hartford-13d6b125.html"
+            },
+            "info": ">"
+          },
+          {
+            "name": "Way Down the River Road",
+            "cover": {
+              "mbid": "3178cc4c-cd9f-4842-96fb-28bf9cfec591",
+              "name": "John Hartford",
+              "sortName": "Hartford, John",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/john-hartford-13d6b125.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Set 2:",
+        "song": [
+          {
+            "name": "Hellbender"
+          },
+          {
+            "name": "Dust in a Baggie",
+            "cover": {
+              "mbid": "de730b2d-0e69-4fbc-a71a-99dcd1f32a10",
+              "name": "Billy Strings & Don Julin",
+              "sortName": "Strings, Billy & Julin, Don",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/billy-strings-and-don-julin-63c5c28f.html"
+            },
+            "info": ">"
+          },
+          {
+            "name": "Going to the Races",
+            "cover": {
+              "mbid": "3e923c4f-ef0c-4295-ab9e-9f028c28ae47",
+              "name": "Carter Stanley",
+              "sortName": "Stanley, Carter",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/carter-stanley-1bd681ac.html"
+            }
+          },
+          {
+            "name": "This Old World"
+          },
+          {
+            "name": "Red Rocking Chair",
+            "cover": {
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+              "name": "[traditional]",
+              "sortName": "[traditional]",
+              "disambiguation": "special purpose artist",
+              "url": "https://www.setlist.fm/setlists/traditional-5bd2f7e4.html"
+            }
+          },
+          {
+            "name": "Love and Regret"
+          },
+          {
+            "name": "Cabin Song"
+          },
+          {
+            "name": "Escanaba"
+          },
+          {
+            "name": "No Rain",
+            "cover": {
+              "mbid": "38c5cdab-5d6d-43d1-85b0-dac41bde186e",
+              "name": "Blind Melon",
+              "sortName": "Blind Melon",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/blind-melon-bd689f6.html"
+            },
+            "info": "Live debut >"
+          },
+          {
+            "name": "Gild the Lily"
+          },
+          {
+            "name": "Sophronie",
+            "cover": {
+              "mbid": "ee850327-b528-4922-93e8-0c59a21ef50e",
+              "name": "Jimmy Martin",
+              "sortName": "Martin, Jimmy",
+              "disambiguation": "American bluegrass musician",
+              "url": "https://www.setlist.fm/setlists/jimmy-martin-13d669f1.html"
+            }
+          },
+          {
+            "name": "Steam Powered Aereo Plane",
+            "cover": {
+              "mbid": "3178cc4c-cd9f-4842-96fb-28bf9cfec591",
+              "name": "John Hartford",
+              "sortName": "Hartford, John",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/john-hartford-13d6b125.html"
+            },
+            "info": "Billy Failing on lead vocals"
+          },
+          {
+            "name": "Hide and Seek"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Richard Petty",
+            "info": "band around one mic"
+          },
+          {
+            "name": "Uncle Pen",
+            "cover": {
+              "mbid": "624db6ea-1afb-4a3c-8092-5acfd2cb4a33",
+              "name": "Bill Monroe and the Bluegrass Boys",
+              "sortName": "Monroe, Bill and the Bluegrass Boys",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/bill-monroe-and-the-bluegrass-boys-5bd657b0.html"
+            },
+            "info": "band around one mic"
+          }
+        ]
+      }
+    ]
+  },
+  "url": "https://www.setlist.fm/setlist/billy-strings/2024/kiefer-uno-lakefront-arena-new-orleans-la-b558186.html"
+}
