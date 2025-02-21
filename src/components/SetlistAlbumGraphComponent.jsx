@@ -1,4 +1,4 @@
-import "../style/AlbumGraphComponent.css";
+import "../style/SetlistAlbumGraphComponent.css";
 import { ResponsivePie } from "@nivo/pie";
 
 function getChartData(albumData) {
@@ -16,11 +16,11 @@ function getChartData(albumData) {
     return chartData;
 }
 
-const AlbumGraphComponent = ({ albumData }) => {
+const SetlistAlbumGraphComponent = ({ albumData }) => {
     const chartData = getChartData(albumData);
 
     return (
-        <div className = "AlbumGraphComponent">
+        <div className = "SetlistAlbumGraphComponent">
         <h2>Album Breakdown</h2>
         <ResponsivePie
         data={chartData}
@@ -68,4 +68,4 @@ const AlbumGraphComponent = ({ albumData }) => {
     );
 }
 
-export default AlbumGraphComponent;
+export default SetlistAlbumGraphComponent;

@@ -1,10 +1,10 @@
 import moment from "moment";
-import "../style/ConcertMetadataComponent.css";
+import "../style/SetlistMetadataComponent.css";
 
-const ConcertMetadataComponent = ({ concertMetadata }) => {
+const SetlistMetadataComponent = ({ concertMetadata }) => {
     console.log(concertMetadata)
     return (
-        <div className = "ConcertMetadataComponent">
+        <div className = "SetlistMetadataComponent">
             <h2>SHOW INFO</h2>
             <table>
                 <thead>
@@ -31,4 +31,4 @@ const ConcertMetadataComponent = ({ concertMetadata }) => {
         </div>)
 };
 
-export default ConcertMetadataComponent;
+export default SetlistMetadataComponent;

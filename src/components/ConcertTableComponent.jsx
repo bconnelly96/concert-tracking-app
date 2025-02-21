@@ -1,7 +1,7 @@
 import "../style/ConcertTableComponent.css";
 import moment from "moment";
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom";
-import ConcertViewComponent from "../components/ConcertViewComponent.jsx";
+import SetlistViewPage from "../components/SetlistViewPage.jsx";
 
 const ConcertTableComponent = ({ concertList }) => {
     return (

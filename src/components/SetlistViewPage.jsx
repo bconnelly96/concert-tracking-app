@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import ConcertMetadataComponent from "./ConcertMetadataComponent.jsx";
+import SetlistMetadataComponent from "./SetlistMetadataComponent.jsx";
 import SetlistComponent from "./SetlistComponent.jsx";
-import AlbumGraphComponent from "./AlbumGraphComponent.jsx";
+import SetlistAlbumGraphComponent from "./SetlistAlbumGraphComponent.jsx";
 import { useLocation, useParams } from "react-router-dom";
 
 const artistName = "Billy Strings";
 const concertDate = "02-08-2024";
 
-const concertViewComponent = ({ concertInfo }) => {
+const SetlistViewPage = ({ concertInfo }) => {
     const [concertMetadata, setConcertMetadata] = useState(null);
     const [concertSetlistData, setConcertSetlistData] = useState(null);
     //const [concertAlbumData, setConcertAlbumData] = useState(null);
@@ -70,11 +70,11 @@ const concertViewComponent = ({ concertInfo }) => {
     if (concertMetadata) {
         return (
             <div>
-                <ConcertMetadataComponent concertMetadata = { concertMetadata } />
+                <SetlistMetadataComponent concertMetadata = { concertMetadata } />
                 <SetlistComponent concertSetlistData = { concertSetlistData } />
             </div>
         )
     }
 }
 
-export default concertViewComponent;
+export default SetlistViewPage;

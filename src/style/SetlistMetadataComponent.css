@@ -1,11 +1,11 @@
-.ConcertMetadataComponent {
+.SetlistMetadataComponent {
     border: 1px solid;
     width: 100%;
     border-radius: 25px;
     margin-bottom: 1.5em;
 }
 
-.ConcertMetadataComponent h2 {
+.SetlistMetadataComponent h2 {
     background-color: blue;
     color: white;
     font-size: 2em;
@@ -16,20 +16,20 @@
 
 }
 
-.ConcertMetadataComponent table {
+.SetlistMetadataComponent table {
     margin: 0 auto;
     width: 100%;
     margin-bottom: 1.5em;
 }
 
-.ConcertMetadataComponent th {
+.SetlistMetadataComponent th {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
     color: blue;
 }
 
-.ConcertMetadataComponent td {
+.SetlistMetadataComponent td {
     text-align: center;
     font-size: 1.3em;
     padding-left: 2.5em;
