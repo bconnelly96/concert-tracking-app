@@ -1,17 +1,17 @@
 import { useState, useEffect } from 'react'
 import axios from "axios";
+
 import ConcertTableComponent from "./ConcertTableComponent.jsx";
 import ConcertInputComponent from "./ConcertInputComponent.jsx";
 import ConcertArtistGraphComponent from "./ConcertArtistGraphComponent.jsx"
 import ConcertDateGraphComponent from "./ConcertDateGraphComponent.jsx"
-import ConcertLocationMapComponent from "./ConcertLocationMapComponent.jsx";
-import { BrowserRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom";
 
 const ConcertViewPage = () => {
     const [concertList, setConcertList] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
 
+    // Callback to pass updates back to parent page
     function updateConcertList(newConcert) {
         setConcertList([...concertList, newConcert]);
 
@@ -25,6 +25,7 @@ const ConcertViewPage = () => {
         )
     }
 
+    // Fetch concert info from API
     useEffect(() => {
         const concertsUrl = "http://localhost:3000/concerts/";
         const params = {

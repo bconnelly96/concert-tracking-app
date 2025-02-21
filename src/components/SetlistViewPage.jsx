@@ -9,18 +9,11 @@ import SetlistAlbumGraphComponent from "./SetlistAlbumGraphComponent.jsx";
 import "../style/SetlistViewPage.css";
 
 
-const SetlistViewPage = (props) => {
+const SetlistViewPage = () => {
     const [concertMetadata, setConcertMetadata] = useState(null);
     const [concertSetlistData, setConcertSetlistData] = useState(null);
-    //const [concertAlbumData, setConcertAlbumData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-
-    //const albumData = {
-    //    "Home": 2,
-    //    "Cover": 2,
-    //    "Renewal": 1
-    //}
 
     const {artist, date} = useParams();
     const artistName = artist;
@@ -45,7 +38,6 @@ const SetlistViewPage = (props) => {
 
                 const setlist = response.data.setlist[0];
 
-                console.log(setlist.eventDate)
                 setConcertMetadata({
                     "artist": setlist.artist.name,
                     "date": date,
