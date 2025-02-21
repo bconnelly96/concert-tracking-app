@@ -3,10 +3,11 @@
     width: 100%;
     border-radius: 25px;
     margin-bottom: 1.5em;
+    background-color: #666b70;
 }
 
 .SetlistMetadataComponent h2 {
-    background-color: blue;
+    background-color: #6C809A;
     color: white;
     font-size: 2em;
     text-align: center;
@@ -26,12 +27,13 @@
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-    color: blue;
+    color: white;
 }
 
 .SetlistMetadataComponent td {
     text-align: center;
     font-size: 1.3em;
     padding-left: 2.5em;
-    padding-right: 2.5em
+    padding-right: 2.5em;
+    color: white;
 }

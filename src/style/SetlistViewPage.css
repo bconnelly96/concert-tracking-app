@@ -1,0 +1,14 @@
+.Error {
+    font-size: 1.5em;
+    color: white;
+    background-color: #666b70;
+    width: 100%;
+    border-radius: 25px;
+    
+}
+
+.Error p {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 1.5em;
+}

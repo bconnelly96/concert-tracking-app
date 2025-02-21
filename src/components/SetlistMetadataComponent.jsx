@@ -2,7 +2,6 @@ import moment from "moment";
 import "../style/SetlistMetadataComponent.css";
 
 const SetlistMetadataComponent = ({ concertMetadata }) => {
-    console.log(concertMetadata)
     return (
         <div className = "SetlistMetadataComponent">
             <h2>SHOW INFO</h2>
@@ -20,7 +19,7 @@ const SetlistMetadataComponent = ({ concertMetadata }) => {
                 <tbody>
                     <tr>
                         <td>{concertMetadata.artist}</td>
-                        <td>{moment(concertMetadata.date).format("M-D-YYYY")}</td>
+                        <td>{moment(concertMetadata.date).format("M-D-YYYY")}</td> 
                         <td>{concertMetadata.venue}</td>
                         <td>{concertMetadata.city}</td>
                         <td>{concertMetadata.locale}</td>

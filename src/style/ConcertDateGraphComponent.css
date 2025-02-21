@@ -1,0 +1,10 @@
+.ConcertDateGraphComponent {
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ConcertDateGraphComponent h2 {
+    text-align: center;
+    color: white;
+}

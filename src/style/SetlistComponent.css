@@ -3,10 +3,11 @@
     width: 100%;
     border-radius: 25px;
     margin-bottom: 1.5em;
+    background-color: #666b70;
 }
 
 .SetlistComponent h2 {
-    background-color: #666b70;
+    background-color: #6C809A;
     color: white;
     font-size: 2em;
     text-align: center;

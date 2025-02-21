@@ -25,7 +25,10 @@ const ConcertTableComponent = ({ concertList }) => {
                             <td>{concert.id}</td>
                             <td>{concert.artist}</td>
                             <td>
-                               {moment(concert.date).format("M-D-YYYY")}
+
+                                <Link to={{pathname: `/setlist_information/${concert.artist}/${concert.date}`}}>
+                                {moment(concert.date).format("M-D-YYYY")}
+                                </Link>
                             </td>
                             <td>{concert.venue}</td>
                             <td>{concert.rating}</td>
