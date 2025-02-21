@@ -1,0 +1,22 @@
+.ConcertInputComponent {
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    color: white;
+}
+
+.ConcertInputComponent table,input {
+    width: 100%;
+}
+
+.ConcertInputComponent th {
+    background-color: #6C809A;
+}
+
+.ConcertInputComponent button {
+    background-color: #6C809A;
+    color: white;
+}

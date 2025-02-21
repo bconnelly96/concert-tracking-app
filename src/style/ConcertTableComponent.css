@@ -1,0 +1,21 @@
+.ConcertTable {
+    width: 100%;
+    tr:nth-child(even) {background-color: #666b70};
+    color: white;
+    margin-bottom: 2em;
+}
+
+.ConcertTable th {
+  text-align: center;
+  background-color: #6C809A;
+  padding: 10px;
+}
+
+.ConcertTable td {
+  text-align: left;
+  padding-right: 20px;
+}
+
+.ConcertTable h1 {
+  text-align: center;
+}

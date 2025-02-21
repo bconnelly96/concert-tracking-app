@@ -3,11 +3,12 @@ import axios from "axios";
 import ConcertMetadataComponent from "./ConcertMetadataComponent.jsx";
 import SetlistComponent from "./SetlistComponent.jsx";
 import AlbumGraphComponent from "./AlbumGraphComponent.jsx";
+import { useLocation, useParams } from "react-router-dom";
 
 const artistName = "Billy Strings";
 const concertDate = "02-08-2024";
 
-const concertViewComponent = () => {
+const concertViewComponent = ({ concertInfo }) => {
     const [concertMetadata, setConcertMetadata] = useState(null);
     const [concertSetlistData, setConcertSetlistData] = useState(null);
     //const [concertAlbumData, setConcertAlbumData] = useState(null);
@@ -21,7 +22,7 @@ const concertViewComponent = () => {
     //}
 
     useEffect(() => {
-        const setlistUrl = "http://localhost:3000/setlists/";
+        const setlistUrl = "http://localhost:3000/setlists/metadata";
         const params = {
             headers: {
                 Accept: 'application/json'
@@ -59,11 +60,11 @@ const concertViewComponent = () => {
     },[]);
 
     if (loading) {
-        return (<div>Loading Job Data...</div>);
+        return (<div>Loading concert Data...</div>);
     }
 
     if (error) {
-        return(<div>Error retrieving job data. Error: { error }</div>);
+        return(<div>Error retrieving concert data. Error: { error }</div>);
     }
 
     if (concertMetadata) {
@@ -77,5 +78,3 @@ const concertViewComponent = () => {
 }
 
 export default concertViewComponent;
-//<SetlistComponent concertSetlistData = { concertSetlistData } />
-//<AlbumGraphComponent albumData = { concertAlbumData } />
